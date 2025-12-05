@@ -1,3 +1,4 @@
+
 :root {
   --page-bg: orange;
   --card-bg: #ffffff;
@@ -114,3 +115,37 @@ input[type="text"]:focus {
 .submit-btn:active {
   transform: translateY(1px);
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    #border:5px solid red;
+}
+
+.circle-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #555;
+    margin-right: 30px;
+}
+
+.info-box {
+    border: 2px solid black;
+    padding: 15px;
+    width: 400px;
+    min-height: 150px;
+    background: #f9f9f9;
+}
+>>>>>>> 9143c7a7b63f696fe939b26a8a7399fb8b6047ce
