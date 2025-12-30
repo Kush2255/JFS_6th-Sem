@@ -22,8 +22,20 @@ public class Student {
         this.email = email;
     }
 
+    // getters & setters
+    public int getId() { return id; }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public String getBranch() { return branch; }
+    public void setBranch(String branch) { this.branch = branch; }
+
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+
     @Override
     public String toString() {
-        return id + " " + name + " " + branch + " " + email;
+        return id + " | " + name + " | " + branch + " | " + email;
     }
 }
